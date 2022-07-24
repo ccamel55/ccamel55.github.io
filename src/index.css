@@ -1,6 +1,48 @@
+@font-face {
+  font-family: "OpenSauceSans-Bold";
+  src: url("./resources/fonts/OpenSauceSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: "OpenSauceSans-Regular";
+  src: url("./resources/fonts/OpenSauceSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "OpenSauceSans-SemiBold";
+  src: url("./resources/fonts/OpenSauceSans-SemiBold.ttf");
+}
+
+/* setup fonts for the elements we are going to use */
+h1 {
+  font-family: "OpenSauceSans-Bold";
+  font-size: 40px;
+  color: white;
+}
+
+h2 {
+  font-family: "OpenSauceSans-SemiBold";
+  font-size: 35px;
+  color: white;
+}
+
+h3 {
+  font-family: "OpenSauceSans-SemiBold";
+  font-size: 18px;
+  color: white;
+}
+
+p {
+  font-family: "OpenSauceSans-Regular";
+  font-size: 15px;
+  color: white;
+}
+
 body {
   margin: 0;
   min-height: 100vh;
   overflow: hidden;
   background: #232323;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
