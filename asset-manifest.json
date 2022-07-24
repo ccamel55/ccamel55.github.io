@@ -1,13 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.167b6171.css",
-    "main.js": "/static/js/main.7f7b9b8f.js",
+    "main.css": "/static/css/main.d355e32e.css",
+    "main.js": "/static/js/main.058d5589.js",
+    "static/media/header.jpg": "/static/media/header.60b143ae8f197d7ca1a3.jpg",
+    "static/media/OpenSauceSans-SemiBold.ttf": "/static/media/OpenSauceSans-SemiBold.c687ac775c9cb9d82295.ttf",
+    "static/media/OpenSauceSans-Bold.ttf": "/static/media/OpenSauceSans-Bold.d41038fde60afe19b12d.ttf",
+    "static/media/OpenSauceSans-Regular.ttf": "/static/media/OpenSauceSans-Regular.a6fd230729e00711e2a3.ttf",
     "index.html": "/index.html",
-    "main.167b6171.css.map": "/static/css/main.167b6171.css.map",
-    "main.7f7b9b8f.js.map": "/static/js/main.7f7b9b8f.js.map"
+    "static/media/place.svg": "/static/media/place.19584b92aac467e09daf4ddbcdfc41b3.svg",
+    "static/media/email.svg": "/static/media/email.aef95eedd200cd8ea0051017cd3e41ae.svg",
+    "static/media/code.svg": "/static/media/code.edca8dc63c0ff87492f9bf22dd2234ce.svg",
+    "main.d355e32e.css.map": "/static/css/main.d355e32e.css.map",
+    "main.058d5589.js.map": "/static/js/main.058d5589.js.map"
   },
   "entrypoints": [
-    "static/css/main.167b6171.css",
-    "static/js/main.7f7b9b8f.js"
+    "static/css/main.d355e32e.css",
+    "static/js/main.058d5589.js"
   ]
 }
