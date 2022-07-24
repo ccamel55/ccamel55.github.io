@@ -59,6 +59,7 @@ export default function Body() {
                         display: "flex",
                         flexDirection: "row",
                         flexWrap: "wrap",
+                        justifyContent: "center",
                         gap: "20px",
                     }}>
                         <ProjectBox>
