@@ -37,6 +37,7 @@ export default function Body() {
 
                 overflowY: "auto",
                 width: "100%",
+                height: "100vh",
                 alignItems: "center",
                 gap: "50px",
             }}>
