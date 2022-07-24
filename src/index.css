@@ -32,10 +32,30 @@ h3 {
   color: white;
 }
 
+h4 {
+  font-family: "OpenSauceSans-SemiBold";
+  font-size: 16px;
+  color: white;
+}
+
+button {
+  font-family: "OpenSauceSans-SemiBold";
+  font-size: 16px;
+
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
 p {
   font-family: "OpenSauceSans-Regular";
   font-size: 15px;
   color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
 }
 
 body {

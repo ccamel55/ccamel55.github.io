@@ -35,12 +35,15 @@ export default function Header() {
                 position: "absolute",
                 bottom: "15%",
                 left: "50px",
-            }}>
-                <IconLabel icon={locationIcon} label={"Auckland, New Zealand"} />
-                <IconLabel icon={emailIcon} label={"allanma31@gmai.com"} />
-                <IconLabel icon={codeIcon} label={"ccamel55"} />
-            </div>
 
+                display: "flex",
+                flexDirection: "column",
+                gap: "10px",
+            }}>
+                <IconLabel icon={locationIcon} label="Auckland, New Zealand" />
+                <IconLabel icon={emailIcon} label="allanma31@gmail.com" href="mailto:allanma31@gmail.com" />
+                <IconLabel icon={codeIcon} label="ccamel55" href="https://github.com/ccamel55" />
+            </div>
         </header>
     );
 };
