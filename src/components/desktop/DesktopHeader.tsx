@@ -1,19 +1,17 @@
-import React from 'react';
-import IconLabel from './IconLabel';
+import headerIMG from '../../resources/imgs/header.jpg';
+import IconLabel from '../common/IconLabel';
 
-import headerIMG from '../resources/imgs/header.jpg';
+import locationIcon from '../../resources/icons/place.svg';
+import emailIcon from '../../resources/icons/email.svg';
+import codeIcon from '../../resources/icons/code.svg';
 
-import locationIcon from '../resources/icons/place.svg';
-import emailIcon from '../resources/icons/email.svg';
-import codeIcon from '../resources/icons/code.svg';
-
-export default function Header() {
-    return (
-        <header className="Header" style={{
+export default function DekstopHeader() {
+    return(
+        <div style={{
+            position: "relative",
             width: "20%",
             height: "100vh",
-            minWidth: "350px",
-            backgroundColor: "lightblue",
+            minWidth: "350px"
         }}>
             <img src={headerIMG} alt="Header Background" style={{
                 filter: "brightness(85%)",
@@ -22,16 +20,16 @@ export default function Header() {
                 height: "100%",
             }}/>
 
-            <div className ="Header-title" style={{
+            <div style={{
                 position: "absolute",
                 top: "15%",
                 left: "50px",
             }}>
-                <h1 style={{ marginBottom: "0" }} >Allan Ma</h1>
-                <h2 style={{ marginTop: "0" }}>Student</h2>
+                <h1>Allan Ma</h1>
+                <h2>Student</h2>
             </div>
 
-            <div className ="Header-footer" style={{
+            <div style={{
                 position: "absolute",
                 bottom: "15%",
                 left: "50px",
@@ -44,6 +42,6 @@ export default function Header() {
                 <IconLabel icon={emailIcon} label="allanma31@gmail.com" href="mailto:allanma31@gmail.com" />
                 <IconLabel icon={codeIcon} label="ccamel55" href="https://github.com/ccamel55" />
             </div>
-        </header>
+        </div>
     );
 };
