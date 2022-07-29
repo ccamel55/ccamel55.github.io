@@ -6,6 +6,8 @@ export default function MobileBody() {
         <div style={{
             boxSizing: "border-box",
             padding: "20px",
+            paddingTop: "15vh",
+            paddingBottom: "15vh",
 
             display: "flex",
             flexDirection: "column",
