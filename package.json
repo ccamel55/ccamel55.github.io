@@ -1,8 +1,9 @@
 {
-  "name": " ",
+  "name": "web",
   "version": "0.0.1",
-  "description": "",
+  "description": "webpage for myself hoora!",
   "private": true,
+  "homepage": "http://ccamel55.github.io/web/",
   "keywords": [
     ""
   ],
@@ -11,14 +12,21 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack serve --open --config webpack.config.dev.js",
-    "build": "webpack --config webpack.config.prod.js"
+    "build": "webpack --config webpack.config.prod.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "copy-webpack-plugin": "^11.0.0",
+    "gh-pages": "^6.1.1",
     "html-webpack-plugin": "^5.6.0",
     "webpack": "^5.91.0",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^5.0.4",
     "webpack-merge": "^5.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccamel55/web.git"
   }
 }
